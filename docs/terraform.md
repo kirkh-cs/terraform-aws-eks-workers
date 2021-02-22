@@ -14,6 +14,28 @@
 | aws | >= 2.0 |
 | template | >= 2.0 |
 
+## Modules
+
+| Name | Source | Version |
+|------|--------|---------|
+| autoscale_group | cloudposse/ec2-autoscale-group/aws | 0.15.0 |
+| label | cloudposse/label/null | 0.24.1 |
+| this | cloudposse/label/null | 0.24.1 |
+
+## Resources
+
+| Name |
+|------|
+| [aws_ami](https://registry.terraform.io/providers/hashicorp/aws/2.0/docs/data-sources/ami) |
+| [aws_iam_instance_profile](https://registry.terraform.io/providers/hashicorp/aws/2.0/docs/data-sources/iam_instance_profile) |
+| [aws_iam_instance_profile](https://registry.terraform.io/providers/hashicorp/aws/2.0/docs/resources/iam_instance_profile) |
+| [aws_iam_policy_document](https://registry.terraform.io/providers/hashicorp/aws/2.0/docs/data-sources/iam_policy_document) |
+| [aws_iam_role_policy_attachment](https://registry.terraform.io/providers/hashicorp/aws/2.0/docs/resources/iam_role_policy_attachment) |
+| [aws_iam_role](https://registry.terraform.io/providers/hashicorp/aws/2.0/docs/resources/iam_role) |
+| [aws_security_group_rule](https://registry.terraform.io/providers/hashicorp/aws/2.0/docs/resources/security_group_rule) |
+| [aws_security_group](https://registry.terraform.io/providers/hashicorp/aws/2.0/docs/resources/security_group) |
+| [template_file](https://registry.terraform.io/providers/hashicorp/template/2.0/docs/data-sources/file) |
+
 ## Inputs
 
 | Name | Description | Type | Default | Required |
@@ -127,5 +149,4 @@
 | security\_group\_name | Name of the worker nodes Security Group |
 | workers\_role\_arn | ARN of the worker nodes IAM role |
 | workers\_role\_name | Name of the worker nodes IAM role |
-
 <!-- markdownlint-restore -->
